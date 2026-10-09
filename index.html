@@ -16,23 +16,23 @@
 <body>
 
   <!-- ===================== INICIO HEADER ===================== -->
-<header>
+<header class="header-sushis">
   <nav class="nav-items">
-    <a class="titulo texto-negro taweno-sushi" href="#">TAWENO SUSHI</a>
+    <a class="titulo texto-negro texto-negrita" href="#">TAWENO SUSHI</a>
     <div class="nav-lista">
     <ul>
       <li><a href="#">Inicio</a></li>
       <li><a href="#">Menú</a></li>
       <li><a href="#">Nosotros</a></li>
       <li><a href="#">Contacto</a></li>
-      </div>
     </ul>
+    </div>
   </nav>
   <article class="container-principal">
-  <div>
+  <div class="logo">
   <h1 class="texto-blanco">Sabor japonés<br><span class="texto-rojo">en cada pieza</span></h1>
   <p class="texto-gris-medio">Ingredientes frescos del día. Tradición y técnica en cada preparación.</p>
-  <a class="texto-blanco boton-rojo" href="#">Ver menú</a>
+  <a class="texto-blanco boton-rojo boton-header texto-centrado" href="#">Ver menú</a>
   </div>
   </article>
 </header>
@@ -40,56 +40,78 @@
 
 
   <!-- ===================== INICIO NUESTRO MENÚ ===================== -->
-<section>
-  <h2 class="nuestro-menu-titulo">Nuestro menú</h2>
+<section class="menu">
   <article class="container-menu">
-  <div class="item">
+  <h2 class="nuestro-menu-titulo">Nuestro menú</h2>
+  <article class="tarjetas">
+  <div class="item item-margen">
   <img src="img/sushi1.jpg" alt="Nigiri Salmón">
+
+  <div class="container-texto-menu">
   <h3>Nigiri Salmón</h3>
   <p class="texto-gris-claro">Arroz con salmón fresco y wasabi.</p>
   <span class="texto-rojo">$4.990</span>
   </div>
+  </div>
 
-  <div class="item"> 
+  <div class="item item-margen"> 
   <img src="img/sushi2.jpg" alt="Roll Spicy Tuna">
+  <div class="container-texto-menu">
   <h3>Roll Spicy Tuna</h3>
   <p class="texto-gris-claro" >Atún, pepino, palta y sésamo.</p>
   <span class="texto-rojo">$6.490</span>
+  </div>
   </div> 
 
-  <div class="item">
+  <div class="item item-margen">
   <img src="img/sushi3.jpg" alt="Tempura Roll">
+  <div class="container-texto-menu">
   <h3>Tempura Roll</h3>
   <p class="texto-gris-claro"> Camarón tempura y salsa teriyaki.</p>
   <span class="texto-rojo">$6.990</span>
   </article>
+  </article>
+  </div>
   </div>
 </section>
   <!-- ===================== FIN NUESTRO MENÚ ===================== -->
 
 
   <!-- ===================== INICIO LOS MÁS PEDIDOS ===================== -->
-<section>
+<section class="mas-pedidos">
+  <article class="container-pedidos-principal">
+  <div class="container-pedidos">
   <h2>Los más pedidos</h2>
-  <p>Los platos que nuestros clientes eligen semana a semana.</p>
+  <p class="texto-gris-medio">Los platos que nuestros clientes eligen semana a semana.</p>
+  </div>
 
+  <div class="lista-pedidos">
   <ul>
     <li>
-      <img src="#" alt="Nigiri Salmón">
-      <span>Nigiri Salmón</span>
-      <span>$4.990</span>
+      <div class="item-pedidos">
+      <img src="img/sushi1.jpg" alt="Nigiri Salmón">
+      <span class="texto-gris-medio">Nigiri Salmón</span>
+      </div>
+      <span class="texto-rojo texto-negrita">$4.990</span>
     </li>
     <li>
-      <img src="#" alt="Roll Spicy Tuna">
-      <span>Roll Spicy Tuna</span>
-      <span>$6.490</span>
+      <div class="item-pedidos">
+      <img src="img/sushi2.jpg" alt="Roll Spicy Tuna">
+      <span class="texto-gris-medio">Roll Spicy Tuna</span>
+      </div>
+      <span class="texto-rojo texto-negrita">$6.490</span>
     </li>
     <li>
-      <img src="#" alt="Tempura Roll">
-      <span>Tempura Roll</span>
-      <span>$6.990</span>
+      <div class="item-pedidos">
+      <img src="img/sushi3.jpg" alt="Tempura Roll">
+      <span class="texto-gris-medio">Tempura Roll</span>
+      </div>
+      <span class="texto-rojo texto-negrita">$6.990</span>
+      </div>
     </li>
   </ul>
+  </div>
+  </article>
 </section>
   <!-- ===================== FIN LOS MÁS PEDIDOS ===================== -->
 
