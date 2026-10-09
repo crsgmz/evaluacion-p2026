@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
   <!-- ===================== ACA TU LINK CSS ===================== -->
   <title>TAWENO SUSHI</title>
 </head>
@@ -15,48 +16,60 @@
 <body>
 
   <!-- ===================== INICIO HEADER ===================== -->
-
-  <nav>
-    <a href="#">TAWENO SUSHI</a>
+<header>
+  <nav class="nav-items">
+    <a class="titulo texto-negro taweno-sushi" href="#">TAWENO SUSHI</a>
+    <div class="nav-lista">
     <ul>
       <li><a href="#">Inicio</a></li>
       <li><a href="#">Menú</a></li>
       <li><a href="#">Nosotros</a></li>
       <li><a href="#">Contacto</a></li>
+      </div>
     </ul>
   </nav>
-
-  <h1>Sabor japonés<br><span>en cada pieza</span></h1>
-  <p>Ingredientes frescos del día. Tradición y técnica en cada preparación.</p>
-  <a href="#">Ver menú</a>
-
+  <article class="container-principal">
+  <div>
+  <h1 class="texto-blanco">Sabor japonés<br><span class="texto-rojo">en cada pieza</span></h1>
+  <p class="texto-gris-medio">Ingredientes frescos del día. Tradición y técnica en cada preparación.</p>
+  <a class="texto-blanco boton-rojo" href="#">Ver menú</a>
+  </div>
+  </article>
+</header>
   <!-- ===================== FIN HEADER ===================== -->
 
 
   <!-- ===================== INICIO NUESTRO MENÚ ===================== -->
-
-  <h2>Nuestro menú</h2>
-
-  <img src="#" alt="Nigiri Salmón">
+<section>
+  <h2 class="nuestro-menu-titulo">Nuestro menú</h2>
+  <article class="container-menu">
+  <div class="item">
+  <img src="img/sushi1.jpg" alt="Nigiri Salmón">
   <h3>Nigiri Salmón</h3>
-  <p>Arroz con salmón fresco y wasabi.</p>
-  <span>$4.990</span>
+  <p class="texto-gris-claro">Arroz con salmón fresco y wasabi.</p>
+  <span class="texto-rojo">$4.990</span>
+  </div>
 
-  <img src="#" alt="Roll Spicy Tuna">
+  <div class="item"> 
+  <img src="img/sushi2.jpg" alt="Roll Spicy Tuna">
   <h3>Roll Spicy Tuna</h3>
-  <p>Atún, pepino, palta y sésamo.</p>
-  <span>$6.490</span>
+  <p class="texto-gris-claro" >Atún, pepino, palta y sésamo.</p>
+  <span class="texto-rojo">$6.490</span>
+  </div> 
 
-  <img src="#" alt="Tempura Roll">
+  <div class="item">
+  <img src="img/sushi3.jpg" alt="Tempura Roll">
   <h3>Tempura Roll</h3>
-  <p>Camarón tempura y salsa teriyaki.</p>
-  <span>$6.990</span>
-
+  <p class="texto-gris-claro"> Camarón tempura y salsa teriyaki.</p>
+  <span class="texto-rojo">$6.990</span>
+  </article>
+  </div>
+</section>
   <!-- ===================== FIN NUESTRO MENÚ ===================== -->
 
 
   <!-- ===================== INICIO LOS MÁS PEDIDOS ===================== -->
-
+<section>
   <h2>Los más pedidos</h2>
   <p>Los platos que nuestros clientes eligen semana a semana.</p>
 
@@ -77,7 +90,7 @@
       <span>$6.990</span>
     </li>
   </ul>
-
+</section>
   <!-- ===================== FIN LOS MÁS PEDIDOS ===================== -->
 
 
@@ -100,23 +113,31 @@
 
 
   <!-- ===================== INICIO CONTACTO ===================== -->
-
+  <section>
+  <article class="container-contacto">
+  <div class="contactanos">
   <h2>Contáctanos</h2>
-  <p>Reservas o consultas. Respondemos en menos de 24 horas.</p>
+  <div class="texto-contacto">
+  <p class="texto-gris-claro">Reservas o consultas. Respondemos en menos de 24 horas.</p>
   <ul>
     <li>Teléfono: +56 9 1234 5678</li>
     <li>Correo: hola@tawenosushi.cl</li>
   </ul>
-
-  <form action="#" method="post">
-    <label for="nombre">Nombre</label>
+  </div>
+  </div>
+  <div class="contactanos-formulario">
+  <form class="botones-formulario" action="#" method="post">
+    <label class="texto-gris-claro texto-formulario" for="nombre">Nombre</label>
     <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
 
-    <label for="mensaje">Mensaje</label>
+    <label class="texto-gris-claro texto-formulario" for="mensaje">Mensaje</label>
     <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
 
-    <button type="submit">Enviar</button>
+    <button class="boton-formulario" type="submit">Enviar</button>
+    </div>
   </form>
+  </article>
+  </section>
 
   <!-- ===================== FIN CONTACTO ===================== -->
 

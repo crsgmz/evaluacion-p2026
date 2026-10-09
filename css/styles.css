@@ -23,3 +23,121 @@ img {
 body {
   font-size: 1.6rem;
 }
+
+.texto-negro {
+  color: black;
+}
+
+.texto-gris {
+  color: #888888;
+}
+
+.texto-blanco {
+  color: #ffffff;
+}
+
+.texto-rojo {
+  color: #c0392b;
+}
+
+.texto-gris-medio {
+  color: #555555;
+}
+
+.texto-gris-claro {
+  color:#888888;
+}
+
+.boton-rojo {
+  background-color: #c0392b;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 11rem;
+}
+
+.nav-items {
+  display:flex;
+  justify-content:space-between;
+  padding: 1rem;
+}
+
+.nav-lista ul, li, a {
+  background-color: #ffffff;
+  display:flex;
+  list-style: none;
+
+  padding-right: 1rem;
+  color:#888888;
+  text-decoration: dotted;
+  font-size:2rem;
+  margin-bottom: 0;
+}
+
+.titulo {
+  margin-top: 1.5rem;
+}
+
+.container-principal {
+background-color: #1a1a1a;
+padding: 5rem;
+}
+
+.container-contacto {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f0eb;
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+
+.contactanos {
+  display:flex;
+  flex-direction: column;
+}
+
+.contactanos-formulario * {
+  display:flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  flex-basis: 100%;
+  padding: 2.4rem;
+  border-radius: 1rem;
+}
+
+.boton-formulario {
+  background-color:#c0392b;
+  padding: 1.2rem;
+  margin: 0.6rem;
+  color: #ffffff;
+}
+
+.texto-formulario {
+  padding: 0.6rem;
+}
+
+.bordes-formulario {
+  border-color: black;
+}
+
+.nuestro-menu-titulo {
+  padding: 1rem;
+  margin-left: 16.3rem;
+}
+
+img {
+  height: 20rem;
+  object-fit:fill;
+  padding: 0;
+}
+.item {
+  display:flex;
+  flex-direction: column;
+  border: 1px,#c9c8c8, solid;
+  border-radius: 1rem;
+  padding: 8rem;
+}
+
+.container-menu {
+  display:flex;
+  justify-content: space-evenly;
+}
