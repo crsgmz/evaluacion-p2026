@@ -24,6 +24,8 @@ body {
   font-size: 1.6rem;
 }
 
+/* ESTILOS */
+
 .texto-negro {
   color: black;
 }
@@ -62,6 +64,10 @@ body {
 .boton-rojo {
   background-color: #c0392b;
 }
+
+/* ----------------------------------------- */
+
+/* INICIO SECCION HEADER */
 
 .boton-header {
   font-size: 1.4rem;
@@ -119,6 +125,12 @@ padding-bottom: 6.4rem;
   font-size: 1.6rem;
   margin-bottom: 2.8rem;
 }
+
+/* FIN SECCION HEADER */
+
+/* ----------------------------------------- */
+
+/* SECCION DE NUESTRO MENU */
 
 .menu {
   padding-top: 4.8rem;
@@ -179,6 +191,12 @@ padding-bottom: 6.4rem;
 .container-texto-menu p {
   font-size: 1.4rem;
 }
+
+/* FIN SECCION DE NUESTRO MENU */
+
+/* ----------------------------------------- */
+
+/* INICIO SECCION MAS PEDIDOS */
 
 .mas-pedidos {
   background-color: #f2f0eb;
@@ -248,6 +266,12 @@ padding-bottom: 6.4rem;
   margin-bottom: 1.2rem;
 }
 
+/* FIN SECCION MAS PEDIDOS */
+
+/* ----------------------------------------- */
+
+/* INICIO SECCION NOSOTROS */
+
 .nosotros {
   background-color: #ffffff;
   padding-top: 4.8rem;
@@ -301,6 +325,12 @@ padding-bottom: 6.4rem;
 .sobre-nosotros2 small {
   color: #555555;
 }
+
+/* FIN SECCION NOSOTROS */
+
+/* ----------------------------------------- */
+
+/* INICIO SECCION CONTACTO */
 
 .contacto {
   background-color: #f2f0eb;
@@ -383,6 +413,12 @@ padding-bottom: 6.4rem;
   font-size: 1.6rem;
 }
 
+/* FIN SECCION CONTACTO */
+
+/* ----------------------------------------- */
+
+/* INICIO FOOTER */
+
 .footer {
   background-color: #1a1a1a;
   color: #ffffff;
@@ -443,3 +479,5 @@ padding-bottom: 6.4rem;
   color: #888888;
   margin-right: 2.5rem;
 }
+
+/* FIN FOOTER */
