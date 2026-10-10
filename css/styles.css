@@ -99,7 +99,7 @@ body {
   margin-right: 2.8rem;
 }
 
-.container-principal {
+.hero {
 background-color: #000000;
 padding-top: 6.4rem;
 padding-bottom: 6.4rem;
@@ -128,6 +128,7 @@ padding-bottom: 6.4rem;
 }
 
 .container-menu {
+  width: 140rem;
   display:flex;
   justify-content: center;
   flex-direction: column;
@@ -174,7 +175,6 @@ padding-bottom: 6.4rem;
 .container-texto-menu h3 span {
   font-size: 1.6rem;
 }
-
 
 .container-texto-menu p {
   font-size: 1.4rem;
@@ -248,68 +248,198 @@ padding-bottom: 6.4rem;
   margin-bottom: 1.2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container-contacto {
-  display: flex;
-  justify-content: space-around;
-  background-color: #f2f0eb;
+.nosotros {
+  background-color: #ffffff;
   padding-top: 4.8rem;
   padding-bottom: 4.8rem;
 }
 
-.contactanos {
-  display:flex;
-  flex-direction: column;
+.container-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  margin: 0 auto;
 }
 
-.contactanos-formulario * {
-  display:flex;
+.sobre-nosotros {
+  display: flex;
   flex-direction: column;
-  background-color: #ffffff;
-  flex-basis: 100%;
-  padding: 2.4rem;
+  width:45%;
+  margin-right: 10rem;
+}
+
+.sobre-nosotros p {
+  color: #555555;
+  font-size: 1.6rem;
+  width: 82%;
+}
+
+.sobre-nosotros2-container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid black;
   border-radius: 1rem;
+  border-color: #e0ddd5;
+  width: 45%;
 }
 
-.boton-formulario {
-  background-color:#c0392b;
-  padding: 1.2rem;
-  margin: 0.6rem;
-  color: #ffffff;
+.sobre-nosotros2 {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.4rem;
+  margin: auto;
+}
+
+.sobre-nosotros2 span {
+  font-weight: bold;
+  font-size: 4.2rem;
+}
+
+.sobre-nosotros2 small {
+  color: #555555;
+}
+
+.contacto {
+  background-color: #f2f0eb;
+  padding: 4.8rem;
+}
+
+.container-contacto {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 140rem;
+  margin: auto;
+  padding-right:2rem;
+}
+
+.contactanos {
+  width: 40%;
+}
+
+.contactanos h2 {
+  font-size: 2.6rem;
+  color: #1a1a1a;
+  margin-bottom: 1.6rem;
+}
+
+.texto-contacto {
+  color: #555555;
+  font-size: 1.6rem;
+}
+
+.texto-contacto ul {
+  padding: 0;
+}
+
+.texto-contacto li {
+  list-style: none;
+}
+
+.contactanos-formulario {
+  width: 50%;
+  background-color: #ffffff;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  padding: 2.4rem;
+}
+
+.relleno-formulario {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.6rem;
 }
 
 .texto-formulario {
-  padding: 0.6rem;
+  color: #555555;
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
 }
 
-.bordes-formulario {
-  border-color: black;
+.contactanos-formulario input { 
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 0.6rem; 
+  padding: 1rem;         
+  font-size: 1.4rem;
+}
+
+.contactanos-formulario textarea {
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 0.6rem; 
+  padding: 1rem;         
+  font-size: 1.4rem;
+}
+
+.boton-formulario {
+  width: 100%;
+  background-color: #c0392b;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 1.2rem;     
+  font-size: 1.6rem;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding-top: 3.6rem;
+  padding-bottom: 2rem;
+}
+
+.contenido-footer {
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.1rem solid #333333;
+  padding-bottom: 3.2rem;
+}
+
+.footer-sushis {
+  width: 40%;
+}
+
+.footer-sushis h3 {
+  font-size: 1.8rem;
+}
+
+.footer-sushis h4 {
+  font-size: 1.6rem;
+}
+
+.footer-sushis p {
+  font-size: 1.6rem;
+  color: #888888;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding-top: 1.6rem;
+  color: #888888;
+}
+
+.footer-copyright p {
+  font-size: 1.3rem;
+}
+
+
+.locales {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+}
+
+.locales h4 {
+  margin: -1rem;
+}
+
+.locales li {
+  display:flex;
+  list-style:none;
+  font-size: 1.6rem;
+  color: #888888;
+  margin-right: 2.5rem;
 }
